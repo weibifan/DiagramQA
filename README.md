@@ -1,26 +1,31 @@
 # DiagramQA
 
-Misc
-ssh：Windows自带的CLI SSH Client
-winget  ~ wget
-Windows Terminal ~ bash，PowerShell
-PuTTY：SSH Shell，包括scp，sftp client。
-choco：Windows的Chocolatey包管理工具，类似于Python的pip命令，Ubuntu下的apt-get
-
 ### Geometric Diagram QA
 
 大致分为2步：1）将题干和几何示意图转换为形式描述。2）通过演绎推理，得到问题的答案。
-难点1：当示意图不符合比例时，题干与示意图的互补增强。
+难点1：当示意图不符合比例时，题干与示意图的对齐及互补增强。
 难点2：演绎推理过程中的辅助线的做法及匹配的演绎推理。
 
-Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning ACL21. https://github.com/lupantech/InterGPS
+Inter-GPS: Interpretable Geometry Problem Solving with Formal Language and Symbolic Reasoning ACL21. https://github.
+com/lupantech/InterGPS
 
 几何示意图解析（无问题解析和对齐）：Plane Geometry Diagram Parsing IJCAI 2022，https://github.com/mingliangzhang2018/PGDP
 源码目录geo_parse标注Facebook，但是不知道是那个工程
 
 geosover:https://github.com/seominjoon/geosolver
 
-FCOS: Fully Convolutional One-Stage Object Detection 
+FCOS: Fully Convolutional One-Stage Object Detection --- 类似算法YOLO
+
+A neural network solves, explains, and generates university math problems by program synthesis and few-shot learning
+at human level. PNAS22
+创新：
+https://github.com/idrori/mathQ，代码量好少
+
+中考平面几何真题：图形外辅助线
+
+![image.png](assets/image.png)
+
+高考没有平面几何，有立体几何和解析几何。
 
 
 ## 相关研究VQA
